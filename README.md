@@ -1,6 +1,4 @@
 # CircaTrack
-A Customized Circle Detection and Tracking System in Videos with Speed and Acceleration Prediction and Re-tracking mechanism
-# CircaTrack
 This is my very first computer vision project that I completed within three days. Thank you for taking the time to check it out. Your support and feedback mean a lot! If this project proves helpful to you, don't hesitate to give it a star!
 
 ## Introduction
@@ -14,6 +12,7 @@ This file fine-tunes parameters for HoughCircles to detect circles accurately wi
 ### CircaTrack.py
 
 CircaTrack utilizes a customized tracking system to track circles in a video. It draws bounding boxes around detected circles and numbers them in the center. To use:
+
 python CircaTrack.py --video [video_path] --output_video [video_path]
 
 Instructions:
@@ -25,6 +24,7 @@ Instructions:
 
 ### CSRT_KCF_Track.py
 This file allows the user to choose between CSRT and KCF trackers to track circles within a video. It provides outputs similar to CircaTrack. To use:
+
 python CSRT_KCF_Track.py --input_video [video_path] --output_video [video_path] --tracker [csrt/kcf]
 
 Instructions:
